@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../../img/Lake\ -\ 91562.gif);
+	overflow: hidden;
+    background-size:cover;
+    font-family: 'Pacifico', cursive;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    padding: 35px;
+    border-radius: 7px;
+}
+.loginbox{
+    width: 450px;
+    color: #ff131a;
+    top: 50%;
+	left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 70px;
+    border-radius: 20px;
+}
+
+.inputs{
+	width: 100%;
+	font-size: 18px;
+	margin: 5px auto;
+	padding: 13px 13px 13px 54px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"], input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(255, 3, 3);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;   
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ff0209;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #379683;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 20px;
+    color: #ff686c;
+}
